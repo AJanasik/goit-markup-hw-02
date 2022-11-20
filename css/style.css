@@ -1,0 +1,263 @@
+:root {
+    --secondary-font: "Raleway", sans-serif;
+    --main-font: "Roboto", sans-serif;
+    --text-color: #212121;
+}
+
+  body {
+    color: var(--text-color);
+    font-family: var(--main-font);
+  
+}
+
+header {
+  background-color: #ececec;
+
+
+}
+
+.logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-decoration: none;
+
+}
+.web-header{
+    margin-left: 215px;
+    margin-top: 24px;
+ color: #2196F3;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.studio-header{
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.navi{
+   display: inline;
+  margin-right: 23px;
+ 
+  list-style-type: none;
+}
+
+.navi-menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+    text-decoration: none; 
+ }
+
+ .navi-social-link{
+    display: inline;
+    margin-right: 50px;
+    float: left;
+    list-style-type: none;
+    color:#757575;
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+ }
+
+ .navi-social-link:hover, .navi-social-link:focus{
+    color: #2196F3;
+}
+
+ .link{
+    color:#212121
+     }
+.link:hover, .link:focus, .link:active {
+    color: #2196F3;
+     }
+
+
+    .backgrd{
+        background: #2F303A;
+        width: 1600px;
+        height: 600px;
+    }
+h1{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-top: 200px;
+margin-left: 452px;
+margin-bottom: 0px;
+}
+.ordering{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: 700px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.ordering-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+
+.h3-title{
+    font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+.h3-text{
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+
+.team{
+    background: #F5F4FA;;
+}
+.team-square{
+    width: 270px;
+    top: 1635px;
+
+    background: #ffffff;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  
+}
+
+    footer {
+        background: #2f303a;
+        width: 1600px;
+        height: 252px;
+        padding: 0;
+        margin: 0;
+
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+    }
+       
+       
+    .logo{
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+    }
+    .web-footer{
+        margin-left: 215px;
+        margin-top: 24px;
+     color: #2196F3;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .studio-footer{
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .adress-place{
+        color:#FFFFFF;
+    }
+    .adress-contact{
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+    
+    }
+
+   
+
+
+    .portfolio-square{
+        box-sizing: border-box;
+        width: 370px;
+
+
+background: #FFFFFF;
+border: 1px solid #6d6d6d;
+    }
+
+    .p-button{
+        
+background: #F5F4FA;
+border-radius: 4px;
+margin-right: 8px;
+    }
+
+    .p-button:hover, .p-button:focus, .p-button:active{
+        background: #2196F3;
+            
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        
+    }
+    .p-button-text{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+padding: 6px 22px 6px 22px;
+    }
+    .p-button-text:hover, .p-button-text:focus, .p-button-text:active{
+        color: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
