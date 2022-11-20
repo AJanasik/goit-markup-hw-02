@@ -203,6 +203,7 @@ letter-spacing: 0.03em;
 
     .adress-place{
         color:#FFFFFF;
+        text-decoration: none;
     }
     .adress-contact{
         color: rgba(255, 255, 255, 0.6);
