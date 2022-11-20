@@ -228,6 +228,7 @@ border: 1px solid #6d6d6d;
 background: #F5F4FA;
 border-radius: 4px;
 margin-right: 8px;
+        cursor: pointer;
     }
 
     .p-button:hover, .p-button:focus, .p-button:active{
