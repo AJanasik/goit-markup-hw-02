@@ -89,9 +89,7 @@ header {
   background: #2f303a;
 
 }
-h1 {
-  font-family: 'Roboto';
-  font-style: normal;
+.h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
